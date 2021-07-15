@@ -1,0 +1,22 @@
+#%Module1.0
+
+set _module_name	[module-info name]
+set pkg_desc		"VisiData is an interactive multitool for tabular data."
+set pkg_name		visidata
+set pkg_vers		2.4
+
+set description "The $pkg_name module adds the directory for\n$pkg_desc version $pkg_vers"
+set version $pkg_vers
+
+set PKG_HOME	/bil/packages/$pkg_name/$pkg_vers
+
+proc ModulesHelp { } {
+	puts stderr "${description}\n"
+}
+
+module-whatis "$pkg_desc version $pkg_vers"
+
+if ![ module-info mode help ] {
+	# prepend *PATH directories to let items in them be found first
+	prepend-path	PATH	${PKG_HOME}
+}
