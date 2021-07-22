@@ -11,7 +11,7 @@ Singularity recipe for [visidata](https://www.visidata.org/).
 Copy the
 
 * `SIF` file
-* and the `aws` and `aws_completer` script
+* and the `vd` script
 
 to `/opt/packages/visidata/2.4`.
 
