@@ -5,7 +5,6 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-visidata)
 
 # singularity-visidata
-![Example](https://camo.githubusercontent.com/5c819cd018e8bb6569076a3ea712b322495917070496b1313b9a979b0c4108a6/687474703a2f2f76697369646174612e6f72672f667265712d6d6f76652d726f772e676966)
 Singularity recipe for [visidata](https://www.visidata.org/).
 
 ## Installing the container on Bridges 2
