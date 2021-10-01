@@ -14,7 +14,11 @@ proc ModulesHelp { } {
 	puts stderr "${description}\n"
 }
 
-module-whatis "$pkg_desc version $pkg_vers"
+module-whatis "visidata 2.4
+
+  Tools included in this module are
+
+  * visidata"
 
 if ![ module-info mode help ] {
 	# prepend *PATH directories to let items in them be found first
