@@ -1,26 +1,26 @@
 #%Module1.0
+#INSTALLATION instructions can be found here https://github.com/pscedu/singularity-visidata
 
-set _module_name	[module-info name]
-set pkg_desc		"VisiData is an interactive multitool for tabular data."
-set pkg_name		visidata
-set pkg_vers		2.4
+## "URL: https://www.psc.edu/resources/software"
+## "Category: Other"
 
-set description "The $pkg_name module adds the directory for\n$pkg_desc version $pkg_vers"
-set version $pkg_vers
+ proc ModulesHelp { } {
+ global dotversion
+ puts stderr "visidata  2.4 (visidata)"
+ puts stderr "------------------------"
+ puts stderr "\nTo enable, first load the following required modules (via modul
+e load command): "
+ puts stderr "\n\tmodule load visidata/2.4"
+ puts stderr "\nFor a full list of binaries included in this module, type"
+ puts stderr "\n\tmodule what-is visidata/2.4"
+ }
 
-set PKG_HOME	/bil/packages/$pkg_name/$pkg_vers
-
-proc ModulesHelp { } {
-	puts stderr "${description}\n"
-}
-
-module-whatis "visidata 2.4
+module-whatis "visidata 2.4 (visidata)
 
   Tools included in this module are
 
   * visidata"
 
-if ![ module-info mode help ] {
-	# prepend *PATH directories to let items in them be found first
-	prepend-path	PATH	${PKG_HOME}
-}
+set VISIDATA_HOME /bil/packages/visidata/2.4
+setenv VISIDATA_HOME ${VISIDATA_HOME}
+prepend-path PATH ${VISIDATA_HOME}
