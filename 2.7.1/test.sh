@@ -6,4 +6,5 @@ shopt -s expand_aliases
 
 DIRECTORY=$(pwd)
 alias vd='singularity exec "$DIRECTORY"/singularity-visidata-2.7.1.sif vd'
-vd --help
+
+tree .
