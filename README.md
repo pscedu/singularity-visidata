@@ -14,9 +14,9 @@ Copy the
 * `SIF` file
 * and the `vd` script
 
-to `/opt/packages/visidata/2.4`.
+to `/opt/packages/visidata/2.7.1`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/visidata` as `2.4.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/visidata` as `2.7.1.lua`.
 
 ## Building the image using the recipe
 
