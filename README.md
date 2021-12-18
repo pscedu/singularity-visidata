@@ -1,18 +1,18 @@
 ![Status](https://github.com/pscedu/singularity-visidata/actions/workflows/main.yml/badge.svg)
+![Status](https://github.com/pscedu/singularity-visidata/actions/workflows/pretty.yml/badge.svg)
 ![Issue](https://img.shields.io/github/issues/pscedu/singularity-visidata)
 ![forks](https://img.shields.io/github/forks/pscedu/singularity-visidata)
 ![Stars](https://img.shields.io/github/stars/pscedu/singularity-visidata)
 ![License](https://img.shields.io/github/license/pscedu/singularity-visidata)
 
 # singularity-visidata
-![Example](https://camo.githubusercontent.com/5c819cd018e8bb6569076a3ea712b322495917070496b1313b9a979b0c4108a6/687474703a2f2f76697369646174612e6f72672f667265712d6d6f76652d726f772e676966)
 Singularity recipe for [visidata](https://www.visidata.org/).
 
 ## Installing the container on Bridges 2
 Copy the
 
 * `SIF` file
-* and the `aws` and `aws_completer` script
+* and the `vd` script
 
 to `/opt/packages/visidata/2.4`.
 

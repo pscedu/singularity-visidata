@@ -4,6 +4,7 @@
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Other"
 -- "Description: VisiData is an interactive multitool for tabular data."
+-- "Keywords: singularity utilities"
 
 whatis("Name: visidata")
 whatis("Version: 2.4")
