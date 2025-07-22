@@ -1,0 +1,26 @@
+#!/bin/bash
+
+VERSION=3.2
+PACKAGE=visidata
+TOOL=vd
+DIRECTORY=$(dirname $0)
+
+PERSISTENT_FILE_STORAGE=/ocean
+if [ -d $PERSISTENT_FILE_STORAGE ]; then
+	OPTIONS="-B $PERSISTENT_FILE_STORAGE"
+fi
+
+if [ -d /local ]; then
+	OPTIONS=$OPTIONS" -B /local"
+fi
+
+if id | grep -q "hubmap"; then
+	OPTIONS=$OPTIONS" -B /hive"
+fi
+
+if id | grep -q "bil"; then
+	OPTIONS=$OPTIONS" -B /bil"
+fi
+
+singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+
