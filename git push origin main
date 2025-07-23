@@ -1,0 +1,294 @@
+[33mcommit 273a949fe7940bf1987e86e515bd7ad350d15d53[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Luis-Rubio <luisjorgerubio@gmail.com>
+Date:   Tue Jul 22 15:24:18 2025 +0000
+
+    updated to version 3.2
+
+[33mcommit 752072e371025e49088ac3e90c47ca433e2e0ef4[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ivan Cao-Berg <icaoberg@cmu.edu>
+Date:   Sun Oct 20 16:54:52 2024 -0400
+
+    Ignored older versions of the build
+
+[33mcommit 3ea19aa19b01c73602066c2773a00bb2481a6d49[m
+Merge: d28ad73 7eda08d
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Thu Oct 17 19:09:16 2024 -0400
+
+    Merge branch 'main' of github.com:pscedu/singularity-visidata
+
+[33mcommit d28ad738f2309311785d25fce85d26c7be7ca998[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Thu Oct 17 19:09:06 2024 -0400
+
+    Added version 3.1
+
+[33mcommit 7eda08d630621116062ce34f2718e699de1fcbb9[m
+Author: Ivan E. Cao-Berg <icaoberg@cmu.edu>
+Date:   Wed Feb 7 19:44:25 2024 -0500
+
+    Updated README
+
+[33mcommit 6b89d0dbcd5cc718a1175d477f52b42845eefd3a[m[33m ([m[1;33mtag: [m[1;33mv3.0.2[m[33m)[m
+Author: Ivan E. Cao-Berg <icaoberg@cmu.edu>
+Date:   Wed Jan 17 22:12:35 2024 -0500
+
+    Added ignore files
+
+[33mcommit a39ec3e807d8558d9adf167e61c6079e9abd50ef[m
+Author: Ivan E. Cao-Berg <icaoberg@cmu.edu>
+Date:   Wed Jan 17 18:23:56 2024 -0500
+
+    Added version 3.0.2
+
+[33mcommit 57a849cbf841fac1470c87f37ec6b231c16925d8[m[33m ([m[1;33mtag: [m[1;33mv3.0[m[33m)[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Fri Nov 24 16:22:25 2023 -0500
+
+    Added version 2.11.1
+
+[33mcommit c673ba0b526dab4df64353f24ef12565de2dae76[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Fri May 19 18:32:48 2023 -0400
+
+    Update pretty.yml
+
+[33mcommit 1f334ceeb2958895b0c8dc9344edf2a0d7e79f27[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Fri May 19 18:32:32 2023 -0400
+
+    Update main.yml
+
+[33mcommit ff0b6b94ada3e145fd60352b3cfa4e0de3dff5e1[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Fri May 19 18:18:12 2023 -0400
+
+    Update README.md
+
+[33mcommit 5e6c43bd08c4b53793fb030353bcf06359cbd5ec[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Thu Apr 13 09:32:46 2023 -0400
+
+    Added xlrd and openpyxl so that visidata can open and edit Excel spreadsheets.
+
+[33mcommit 5fa3b0a45a017c05c1bf945a73502e1e79b33012[m[33m ([m[1;33mtag: [m[1;33mv2.11[m[33m)[m
+Author: Ivan E. Cao-Berg <icaoberg@andrew.cmu.edu>
+Date:   Sat Feb 18 00:15:48 2023 -0500
+
+    Updated recipe
+
+[33mcommit 3b3191cd91f2d3da2f823b9a5aa2e83596e6ee4c[m
+Author: Ivan E. Cao-Berg <icaoberg@andrew.cmu.edu>
+Date:   Sat Feb 18 00:13:43 2023 -0500
+
+    Added version 2.11
+
+[33mcommit debc3b3d5a4acfba7d857868945b525a50e6a5a0[m[33m ([m[1;33mtag: [m[1;33mv2.10.2[m[33m)[m
+Author: Ivan E. Cao-Berg <icaoberg@andrew.cmu.edu>
+Date:   Fri Nov 11 19:59:14 2022 -0500
+
+    Renamed folder
+
+[33mcommit 1800240e0f2094d519dbb8976e87cb9eda3e0ad7[m
+Author: Ivan E. Cao-Berg <icaoberg@andrew.cmu.edu>
+Date:   Fri Nov 11 19:58:59 2022 -0500
+
+    Added visidata 2.10.2
+
+[33mcommit a910b691d4022d71801da9d00d201b7f38567024[m[33m ([m[1;33mtag: [m[1;33mv2.8[m[33m, [m[1;33mtag: [m[1;33mv2.7.1[m[33m)[m
+Author: Ivan E. Cao-Berg <icaoberg@andrew.cmu.edu>
+Date:   Thu Apr 7 22:58:26 2022 -0400
+
+    Added version 2.6.1
+
+[33mcommit e65f3da140127e11ae1f1dfec8575070fb4b7c07[m
+Author: Ivan Cao-Berg <icaoberg@psc.edu>
+Date:   Thu Apr 7 22:55:06 2022 -0400
+
+    Added version 2.8
+
+[33mcommit b112877669a1ee192cc6710815b4cc7cf65d7240[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Sat Dec 18 23:59:01 2021 -0500
+
+    Update README.md
+
+[33mcommit 737bdc033f2dd0b2272a6f1e9be3d816731a9f51[m
+Author: Ivan Cao-Berg <icaoberg@psc.edu>
+Date:   Sat Dec 18 17:19:39 2021 -0500
+
+    Updated test
+
+[33mcommit e90dcadf9c72c34e7d2ab6018899270a4d56cf3f[m
+Author: Ivan Cao-Berg <icaoberg@psc.edu>
+Date:   Sat Dec 18 17:17:48 2021 -0500
+
+    Updated README file
+
+[33mcommit 6505953f17800fd0c1be77602b069afc33dee56e[m
+Merge: 0d64cd0 9061fe2
+Author: Ivan Cao-Berg <icaoberg@psc.edu>
+Date:   Sat Dec 18 17:13:39 2021 -0500
+
+    Merge branch 'main' of github.com:pscedu/singularity-visidata
+
+[33mcommit 0d64cd0c0f3535009e5dc150ce67ed485530c3a2[m
+Author: Ivan Cao-Berg <icaoberg@psc.edu>
+Date:   Sat Dec 18 17:12:52 2021 -0500
+
+    Added version 2.7.1
+
+[33mcommit 9061fe22dd4fe1c8219320ddfcb89a5a9526de1b[m
+Author: Ivan Cao-Berg <icaoberg@psc.edu>
+Date:   Thu Sep 30 23:50:33 2021 -0400
+
+    Updated modulefiles
+
+[33mcommit 9d581ab13972bec09df4f93162d877a42110e25d[m
+Author: Ivan Cao-Berg <icaoberg@psc.edu>
+Date:   Thu Sep 30 23:40:10 2021 -0400
+
+    Updated modulefiles
+
+[33mcommit f664f675dc8846d74c7c07024564c30174982caf[m
+Merge: b7f534d 431f90c
+Author: Ivan Cao-Berg <icaoberg@psc.edu>
+Date:   Thu Sep 30 23:35:18 2021 -0400
+
+    Merge branch 'main' of github.com:pscedu/singularity-visidata into main
+
+[33mcommit b7f534d771273eebe72063101228fe9675b3ff1a[m
+Author: Ivan Cao-Berg <icaoberg@psc.edu>
+Date:   Thu Sep 30 23:35:08 2021 -0400
+
+    Updated modulefile
+
+[33mcommit 431f90cb912f02bbc098e7b67d36feea0194ad10[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Wed Sep 8 20:35:03 2021 -0400
+
+    Update vd
+
+[33mcommit 875ac3df43a486323cd449c3f91f4bcee85bfd0a[m
+Author: Ivan Cao-Berg <icaoberg@psc.edu>
+Date:   Wed Sep 8 00:37:58 2021 -0400
+
+    Updated main script
+
+[33mcommit 6854976a60163a94328059f1d390d67ed5caeca7[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Sat Aug 14 21:22:23 2021 -0400
+
+    Update test.sh
+
+[33mcommit 49bdaf2550ea55fd90d7473dac36801b101ce1b2[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Sat Aug 14 18:30:23 2021 -0400
+
+    Update main.yml
+
+[33mcommit f49dbc0ba9f9d8721a687f09fdc1e490c51c6348[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Sat Aug 14 15:06:18 2021 -0400
+
+    Create test.sh
+
+[33mcommit 2bd0aaa4b6e06061b1b3be126879c59eee1a8030[m
+Author: halbakri <84340692+halbakri@users.noreply.github.com>
+Date:   Sat Aug 14 14:30:08 2021 -0400
+
+    Update README.md
+
+[33mcommit c5642108a41ba0e9b52701819e42e2de47bd22b2[m
+Author: halbakri <84340692+halbakri@users.noreply.github.com>
+Date:   Sat Aug 14 14:29:33 2021 -0400
+
+    Create pretty.yml
+
+[33mcommit 6d3a6cb064d8f1680169133ed12a371dbe9cc9e6[m
+Author: halbakri <84340692+halbakri@users.noreply.github.com>
+Date:   Wed Aug 4 15:37:47 2021 -0400
+
+    Update LICENSE
+
+[33mcommit 47df3594f14d2fd92d26e089a2babb60cef8ef32[m
+Author: halbakri <84340692+halbakri@users.noreply.github.com>
+Date:   Mon Aug 2 15:06:36 2021 -0400
+
+    Update main.yml
+
+[33mcommit fdbf1fdfacaa2a55b91b96f0635a9313c99dab8e[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Thu Jul 22 15:41:33 2021 -0400
+
+    Update README.md
+
+[33mcommit 04852b2eb22f0b221fa69c3ce83978676f534433[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Thu Jul 22 15:41:09 2021 -0400
+
+    Update README.md
+
+[33mcommit 74479e332340b445d58b1274e35cf0255dea470e[m
+Merge: 828f26d 78d0f9f
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Thu Jul 22 15:40:47 2021 -0400
+
+    Merge pull request #1 from halbakri/patch-1
+    
+    Update modulefile.lua
+
+[33mcommit 78d0f9f554b6a4838be0561f1431d626c1d7408b[m
+Author: halbakri <84340692+halbakri@users.noreply.github.com>
+Date:   Thu Jul 22 15:37:12 2021 -0400
+
+    Update modulefile.lua
+
+[33mcommit 828f26d0c459c988bc242b380d23c81eb4cf5c7c[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Thu Jul 15 17:42:00 2021 -0400
+
+    Update modulefile.bil
+
+[33mcommit 5934495a66740a475d5596f8b21b6538311ff18a[m
+Merge: 02946bb e591645
+Author: Ivan Cao-Berg <icaoberg@andrew.cmu.edu>
+Date:   Thu Jul 15 17:28:18 2021 -0400
+
+    Merge branch 'main' of github.com:pscedu/singularity-visidata
+
+[33mcommit 02946bb36aa78e6ce92b14aa5c62ef7210ec7874[m
+Author: Ivan Cao-Berg <icaoberg@andrew.cmu.edu>
+Date:   Thu Jul 15 17:28:08 2021 -0400
+
+    Added moduledule file that can be used on BIL
+
+[33mcommit f6eb268c650f79d7263bc14887976aaf167bc295[m
+Author: Ivan Cao-Berg <icaoberg@andrew.cmu.edu>
+Date:   Thu Jul 15 17:27:42 2021 -0400
+
+    Added moduledule file that can be used on Hive
+
+[33mcommit e5916452b20a0bfcaac016049d172c255ec27146[m
+Author: icaoberg <icaoberg@andrew.cmu.edu>
+Date:   Fri Jul 9 11:09:44 2021 -0400
+
+    Update Singularity
+
+[33mcommit dac0252ec94df178f08c8dc0148cc047753583e8[m[33m ([m[1;33mtag: [m[1;33mv2.4[m[33m)[m
+Author: Ivan Cao-Berg <icaoberg@andrew.cmu.edu>
+Date:   Thu Jul 8 21:59:12 2021 -0400
+
+    Added GitHub Actions
+
+[33mcommit 1f30fae4569b82ee4aedf2dcc50693dfc0ec8f7d[m
+Author: Ivan Cao-Berg <icaoberg@andrew.cmu.edu>
+Date:   Thu Jul 8 21:58:30 2021 -0400
+
+    Added scripts
+
+[33mcommit 44fec620e73eff4de058e38a28e82e99926dbfec[m
+Author: Ivan Cao-Berg <icaoberg@andrew.cmu.edu>
+Date:   Thu Jul 8 21:57:43 2021 -0400
+
+    Added files
